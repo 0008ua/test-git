@@ -5,5 +5,3 @@ function one () {
   let b
   return true
 }
-
-one()
