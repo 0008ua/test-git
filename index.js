@@ -1,7 +1,7 @@
 // first line
 
 function one () {
-  let a
+  let a = 5
   let b
   let c
   return true
