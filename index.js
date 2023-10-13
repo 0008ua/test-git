@@ -9,4 +9,6 @@ function one () {
 
 one()
 
-function two () {}
+function two () {
+  let p
+}
