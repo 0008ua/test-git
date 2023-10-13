@@ -8,3 +8,5 @@ function one () {
 }
 
 one()
+
+function two () {}
