@@ -12,3 +12,7 @@ one()
 function two () {
   let p
 }
+
+function four() {
+  console.log('changes by me after collaborator')
+}
