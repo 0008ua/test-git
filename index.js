@@ -1,13 +1,15 @@
 // first line
 
 function one () {
-  let a = 5000
-  let b = 6000
-  let c = 2
-  return true
+  const pairs = [['a', 5000], ['b', 6000], ['c', 2]];
+  const variables = [];
+  for (const pair of pairs) {
+    variables.push(createVariable(pair));
+  }
+  return variables;
 }
+console.log(one());
 
-one()
 
 function two () {}
 
@@ -16,6 +18,7 @@ function four() {
   console.log('changes by me after collaborator')
 }
 
-function createVariable() {
+function createVariable(pair) {
   // create variable
+  return { [pair[0]]: pair[1] };
 }
