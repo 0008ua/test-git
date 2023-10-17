@@ -12,3 +12,5 @@ one()
 function two () {
   let p
 }
+
+function exp() {}
