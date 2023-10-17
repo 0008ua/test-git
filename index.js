@@ -14,5 +14,6 @@ function two () {
 }
 
 function four() {
+  console.log("changes by collaborator before me");
   console.log('changes by me after collaborator')
 }
