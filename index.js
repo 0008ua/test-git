@@ -9,9 +9,7 @@ function one () {
 
 one()
 
-function two () {
-  let p
-}
+function two () {}
 
 function four() {
   console.log("changes by collaborator before me");
