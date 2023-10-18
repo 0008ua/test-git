@@ -25,4 +25,6 @@ function createVariable(pair) {
 
 class Feat2 {
   constructor() {}
+  
+  run() {}
 }
