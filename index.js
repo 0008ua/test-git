@@ -28,5 +28,6 @@ class Feat2 {
 
   run() {
     console.log('go')
+    console.log('run')
   }
 }
