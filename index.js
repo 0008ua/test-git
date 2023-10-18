@@ -23,8 +23,4 @@ function createVariable(pair) {
   return { [pair[0]]: pair[1] };
 }
 
-class Feat2 {
-  constructor(a) {
-    this.a = a
-  }
-}
+class Feat2 {}
