@@ -22,3 +22,9 @@ function createVariable(pair) {
   // create variable
   return { [pair[0]]: pair[1] };
 }
+
+class Feat2 {
+  constructor(a) {
+    this.a = a
+  }
+}
