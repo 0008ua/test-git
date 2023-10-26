@@ -1,5 +1,3 @@
-// first line
-
 function one () {
   const pairs = [['a', 5000], ['b', 6000], ['c', 2]];
   const variables = [];
